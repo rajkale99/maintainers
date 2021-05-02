@@ -13,7 +13,7 @@ const Contributor = () => {
   useEffect(() => {
     async function fetchMyAPI() {
       let response = await fetch(
-        "https://raw.githubusercontent.com/rajkale99/OTA/11/devices.json"
+        "https://raw.githubusercontent.com/legionos-devices/OTA/11/devices.json"
       );
       response = await response.json();
       setarr(response);
