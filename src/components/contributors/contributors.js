@@ -73,7 +73,7 @@ const Contributor = () => {
     
         )}
       </div>
-   
+   <br/> <br/> <br/>
   );
 };
 export default Contributor;
