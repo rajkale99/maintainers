@@ -1,0 +1,125 @@
+
+.hero {
+  display: flex;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+}
+.home {
+  background-color: #1d1d1d;
+}
+
+.title {
+  color: aliceblue;
+  display: flex;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: bold;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95vw;
+  column-gap: 50px;
+  grid-row-gap: 90px;
+  margin: auto
+
+}
+.custom-btn {
+  border-color: transparent;
+  margin-top: 1.4rem;
+  margin-left: 0.35rem;
+  margin-right: 0.35rem;
+  margin-bottom: 2rem;
+  width: 9rem;
+  height: 2.9rem;
+  box-shadow: 0 3px #999;
+  background-color: #f1466827 !important;
+  border-radius: 16px;
+  color: #f14668 !important;
+  border-width: 1px;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(.5em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  display: inline-block;
+  font-size: 1rem;
+  position: relative;
+  vertical-align: top;
+  margin: 0;
+}
+
+.card-item {
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(241, 12, 50, 0.129),
+    0px -8px 16px 0px rgba(241, 12, 50, 00.129);
+  -moz-box-shadow: 0px 8px 16px 0px rgba(241, 12, 50, 00.129),
+    0px -8px 16px 0px rgba(241, 12, 50, 00.129);
+  box-shadow: 0px 8px 16px 0px rgba(241, 12, 50, 00.129),
+    0px -8px 16px 0px rgba(241, 12, 50, 00.129);
+    background-color: #191919;
+    padding: 5.5rem;
+    border-radius: 14px;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    margin-top: 0.6rem;
+    color: white;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    text-align: center!important;
+}
+
+.card-title {
+  padding-top: 0.8rem;
+  font-size: large;
+  font-weight: 500;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #cyan !important;
+}
+
+.main-photo {
+  border-radius: 50%;
+  width: 10rem;
+  height: auto;
+  max-width: 100%; 
+}
+.card-item:hover {
+  top: -8px;
+}
+
+.switch_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  gap: 40px;
+  color: red;
+}
+
+@media screen and (orientation: portrait) {
+  #hero {
+    flex-direction: column;
+  }
+}
