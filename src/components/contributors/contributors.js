@@ -26,6 +26,8 @@ const Contributor = () => {
             </div>
           </div>
         </div>
+        <div className={style["switch_button"]}>
+        </div>
         {switchmaintainer && (
           <div className={style["all-cards"]}>
             {arr.map((element, i) => {
