@@ -1,15 +1,11 @@
 import React, { useEffect } from "react";
 import style from "./contributors.module.css";
-import { Button } from 'react-bootstrap';
 import "./contributors.module.css";
 
 const Contributor = () => {
   const [arr, setarr] = React.useState([]);
-  const [switchmaintainer, setSwitchmaintainer] = React.useState(true);
+  const [switchmaintainer] = React.useState(true);
 
-  const maintainerClicked = () => {
-    setSwitchmaintainer(true);
-  };
   useEffect(() => {
     async function fetchMyAPI() {
       let response = await fetch(
@@ -29,10 +25,6 @@ const Contributor = () => {
               LEGIONOS TEAM
             </div>
           </div>
-        </div>
-        <div className={style["switch_button"]}>
-          <Button onClick={() => maintainerClicked()}>Mantainers</Button>
-
         </div>
         {switchmaintainer && (
           <div className={style["all-cards"]}>
@@ -72,8 +64,8 @@ const Contributor = () => {
           </div>
     
         )}
+<br></br><br></br><br></br>
       </div>
-   <br/> <br/> <br/>
   );
 };
 export default Contributor;
