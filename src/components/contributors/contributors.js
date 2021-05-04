@@ -19,8 +19,12 @@ const Contributor = () => {
   }, []);
   return (
     <div className={style["home"]}>
+      <div>
+        <div>
             <div className={style["title"]}>
               LEGIONOS TEAM
+             </div>
+            </div>
         </div>
         <div className={style["switch_button"]}>
         </div>
