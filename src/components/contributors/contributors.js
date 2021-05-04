@@ -22,7 +22,8 @@ const Contributor = () => {
             <div className={style["title"]}>
               LEGIONOS TEAM
         </div>
-
+        <div className={style["switch_button"]}>
+        </div>
         {switchmaintainer && (
           <div className={style["all-cards"]}>
             {arr.map((element, i) => {
@@ -61,8 +62,8 @@ const Contributor = () => {
           </div>
     
         )}
+<br></br><br></br><br></br>
       </div>
-   
   );
 };
 export default Contributor;
