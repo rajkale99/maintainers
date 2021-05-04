@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/maintainers/static/css/main.d239cc28.chunk.css",
+    "main.js": "/maintainers/static/js/main.e4e8ba42.chunk.js",
+    "main.js.map": "/maintainers/static/js/main.e4e8ba42.chunk.js.map",
+    "runtime-main.js": "/maintainers/static/js/runtime-main.b5be4934.js",
+    "runtime-main.js.map": "/maintainers/static/js/runtime-main.b5be4934.js.map",
+    "static/css/2.4dcca30c.chunk.css": "/maintainers/static/css/2.4dcca30c.chunk.css",
+    "static/js/2.0cf74558.chunk.js": "/maintainers/static/js/2.0cf74558.chunk.js",
+    "static/js/2.0cf74558.chunk.js.map": "/maintainers/static/js/2.0cf74558.chunk.js.map",
+    "index.html": "/maintainers/index.html",
+    "static/css/2.4dcca30c.chunk.css.map": "/maintainers/static/css/2.4dcca30c.chunk.css.map",
+    "static/css/main.d239cc28.chunk.css.map": "/maintainers/static/css/main.d239cc28.chunk.css.map",
+    "static/js/2.0cf74558.chunk.js.LICENSE.txt": "/maintainers/static/js/2.0cf74558.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/maintainers/static/media/arrow_right.0897f985.svg",
+    "static/media/all.min.css": "/maintainers/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/font-awesome.min.css": "/maintainers/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/bootstrap.min.css": "/maintainers/static/media/glyphicons-halflings-regular.be810be3.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5be4934.js",
+    "static/css/2.4dcca30c.chunk.css",
+    "static/js/2.0cf74558.chunk.js",
+    "static/css/main.d239cc28.chunk.css",
+    "static/js/main.e4e8ba42.chunk.js"
+  ]
+}
