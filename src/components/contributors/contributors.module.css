@@ -1,26 +1,15 @@
 
-.hero {
-  display: flex;
-}
-
-.heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 4rem 0 2rem 0;
-  text-align: center;
-}
 .home {
   background-color: #1d1d1d;
 }
 
 .title {
-  color: aliceblue;
-  display: flex;
+  color: #f14668;
+  text-align: center;
   font-size: 3.5rem;
-  line-height: 4rem;
+  line-height: 16rem;
   font-weight: bold;
+  margin-top: auto;
 }
 
 .all-cards {
@@ -30,8 +19,7 @@
   width: 95vw;
   column-gap: 50px;
   grid-row-gap: 90px;
-  margin: auto
-
+  margin:auto;
 }
 .custom-btn {
   border-color: transparent;
@@ -91,11 +79,11 @@
   font-size: large;
   font-weight: 500;
   display: block;
+  color: #f14668;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  color: #cyan !important;
 }
 
 .main-photo {
@@ -106,16 +94,6 @@
 }
 .card-item:hover {
   top: -8px;
-}
-
-.switch_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  gap: 40px;
-  color: red;
 }
 
 @media screen and (orientation: portrait) {

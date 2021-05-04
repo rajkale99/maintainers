@@ -1,19 +1,15 @@
 import React, { useEffect } from "react";
 import style from "./contributors.module.css";
-import { Button } from 'react-bootstrap';
 import "./contributors.module.css";
 
 const Contributor = () => {
   const [arr, setarr] = React.useState([]);
-  const [switchmaintainer, setSwitchmaintainer] = React.useState(true);
+  const [switchmaintainer] = React.useState(true);
 
-  const maintainerClicked = () => {
-    setSwitchmaintainer(true);
-  };
   useEffect(() => {
     async function fetchMyAPI() {
       let response = await fetch(
-        "https://raw.githubusercontent.com/rajkale99/OTA/11/devices.json"
+        "https://raw.githubusercontent.com/legionos-devices/OTA/11/devices.json"
       );
       response = await response.json();
       setarr(response);
@@ -23,17 +19,10 @@ const Contributor = () => {
   }, []);
   return (
     <div className={style["home"]}>
-        <div className={style["hero"]}>
-          <div className={style["heading"]}>
             <div className={style["title"]}>
               LEGIONOS TEAM
-            </div>
-          </div>
         </div>
-        <div className={style["switch_button"]}>
-          <Button onClick={() => maintainerClicked()}>Mantainers</Button>
 
-        </div>
         {switchmaintainer && (
           <div className={style["all-cards"]}>
             {arr.map((element, i) => {
